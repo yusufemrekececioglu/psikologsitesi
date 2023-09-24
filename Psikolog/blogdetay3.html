@@ -1,0 +1,443 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<title>Psychologist</title>
+	<meta charset="utf-8">
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css" class="color-switcher-link">
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+
+	<div class="preloader">
+		<div class="preloader_image"></div>
+	</div>
+
+	<!-- search modal -->
+	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">
+				<i class="rt-icon2-cross2"></i>
+			</span>
+		</button>
+		<div class="widget widget_search">
+			<form method="get" class="searchform search-form form-inline" action="./">
+				<div class="form-group">
+					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
+				</div>
+				<button type="submit" class="theme_button">Search</button>
+			</form>
+		</div>
+	</div>
+
+	<!-- Unyson messages modal -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+		<div class="fw-messages-wrap ls with_padding">
+			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+			<!--
+		<ul class="list-unstyled">
+			<li>Message To User</li>
+		</ul>
+		-->
+
+		</div>
+	</div>
+	<!-- eof .modal -->
+
+	<!-- wrappers for visual page editor and boxed version of template -->
+	<div id="canvas">
+		<div id="box_wrapper">
+
+			<!-- template sections -->
+
+			<section class="page_topline cs table_section table_section_md columns_padding_0">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-3 text-center text-md-left">
+							<ul class="inline-dropdown inline-block divided_content">
+
+								<li class="dropdown login-dropdown">
+									<a class="header-button" data-target="#" href="index.html" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+										<i class="fa fa-user"></i>
+										<span class="header-button-text">Giriş Yap</span>
+									</a>
+
+									<div class="dropdown-menu ls with_padding">
+
+										<p>
+											<strong class="grey">Bir hesabınız varsa, lütfen giriş yapın:
+											</strong>
+										</p>
+										<form role="form" action="https://html.modernwebtemplates.com/">
+
+											<div class="form-group">
+												<label for="login_email" class="sr-only">Email </label>
+												<input type="email" class="form-control" id="login_email" placeholder="Email Address">
+											</div>
+											<div class="form-group">
+												<label for="login_password" class="sr-only">Şifre</label>
+												<input type="password" class="form-control" id="login_password" placeholder="Password">
+											</div>
+											<div class="checkbox">
+												<input type="checkbox" id="remember_checkbox">
+												<label for="remember_checkbox">
+													Beni Hatırla
+												</label>
+											</div>
+
+											<button type="button" class="theme_button color1 block_button">
+												Giriş Yap
+											</button>
+
+										</form>
+										<div class="topmargin_20 darklinks">
+											<a href="https://html.modernwebtemplates.com/psychologist/#">Şifremi Unuttum?</a>
+										</div>
+
+									</div>
+								</li>
+
+
+								<a class="header-button" href="https://html.modernwebtemplates.com/psychologist/#">
+									<i class="fa fa-lock"></i>
+									<span class="header-button-text">Kayıt ol</span>
+								</a>
+							</ul>
+
+						</div>
+
+						<div class="col-md-6 text-center divided_content">
+
+							<div>
+								<div class="media small-teaser">
+									<div class="media-left">
+										<i class="fa fa-user highlight fontsize_16"></i>
+									</div>
+									<div class="media-body">
+										+90500 000 0000
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div class="media small-teaser">
+									<div class="media-left">
+										<i class="fa fa-map-marker highlight fontsize_16"></i>
+									</div>
+									<div class="media-body">
+										Cumhuriyet, Alparslan Blv. Uyum Apt No:26, 55200 Atakum/Samsun
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div class="media small-teaser">
+									<div class="media-left">
+										<i class="fa fa-envelope highlight fontsize_16"></i>
+									</div>
+									<div class="media-body">
+										info@psikolog.com
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="col-md-3 text-center text-md-right bottommargin_0">
+							<a href="https://html.modernwebtemplates.com/psychologist/#appointment" class="theme_button color1 margin_0">Randevu Al
+</a>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			<div class="page_header_wrapper header_white affix-wrapper" style="height: 78px;"><header class="page_header header_white table_section columns_padding_0 toggler-xs-right affix">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-3 col-sm-5">
+							<a href="https://html.modernwebtemplates.com/psychologist/" class="logo">
+								B2B Terapi
+							</a>
+							<!-- header toggler -->
+							<span class="toggle_menu visible-xs">
+								<span></span>
+							</span>
+						</div>
+						<div class="col-md-6 col-sm-2 text-center">
+							<!-- main nav start -->
+							<nav class="mainmenu_wrapper" style="">
+								<ul class="mainmenu nav sf-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;">
+									<li>
+										<a href="index.html" class="sf-with-ul">Ana Sayfa</a>
+									<!-- blog -->
+									<li>
+										<a href="#" class="sf-with-ul">Terapiler</a>
+										<ul style="display: none; margin-top: 5px;">
+
+											<li>
+												<a href="bireyselterapi.html">Bireysel Terapi</a>
+											</li>
+											<li>
+												<a href="aileveciftterapisi.html">Aile ve Çift Terapisi</a>
+											</li>
+											<li>
+												<a href="ergenterapisi.html">Ergen Terapisi</a>
+											</li>
+											<li>
+												<a href="cinselterapi.html">Cinsel Terapi</a>
+											</li>
+
+											<li>
+												<a href="onlineterapi.html" class="sf-with-ul">Online Terapi</a>
+												<ul style="display: none; margin-top: 5px;">
+								
+												</ul>
+											</li>
+
+										</ul>
+									</li>
+									<!-- eof blog -->
+									<li>
+										<a href="hakkinda.html" class="sf-with-ul">Hakkımda</a>
+
+									</li>
+									<!-- eof features -->
+
+
+									<li>
+
+										<a href="blog.html" class="sf-with-ul">Blog</a>
+
+									</li>
+									<!-- eof pages -->
+
+
+
+									<!-- contacts -->
+									<li>
+										<a href="iletisim.html" class="sf-with-ul">İletişim</a>
+
+									</li>
+									<!-- eof contacts -->
+								</ul>
+							</nav>
+							<!-- eof main nav -->
+							<span class="toggle_menu hidden-xs">
+								<span></span>
+							</span>
+						</div>
+						<div class="col-md-3 col-sm-5 text-right hidden-xs lightgreylinks">
+							<div class="page_social_icons divided_content">
+								<span>
+									<a class="fa fa-facebook" href="https://html.modernwebtemplates.com/psychologist/#" title="Facebook"></a>
+								</span>
+								<span>
+									<a class="fa fa-twitter" href="https://html.modernwebtemplates.com/psychologist/#" title="Twitter"></a>
+								</span>
+								<span>
+									<a class="fa fa-google" href="https://html.modernwebtemplates.com/psychologist/#" title="Google"></a>
+								</span>
+								<span>
+									<a class="fa fa-linkedin" href="https://html.modernwebtemplates.com/psychologist/#" title="LinkedIn"></a>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header></div>
+
+			<section class="ls section_padding_top_130 section_padding_bottom_130 columns_padding_25">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-sm-7 col-md-8 col-lg-12">
+
+							<div class="vertical-item content-padding with_shadow">
+								<div class="entry-thumbnail item-media">
+									<img src="images/blog_post2.jpg" alt="">
+								</div>
+
+								<div class="item-content">
+
+
+									<header class="entry-header">
+
+										<!-- .entry-meta -->
+
+										<div class="entry-date small-text highlight">
+											<a href="https://html.modernwebtemplates.com/psychologist/blog-right.html" rel="bookmark">
+												<time class="entry-date" datetime="2017-03-13T08:50:40+00:00">
+													 13 Mart, 2023
+												</time>
+											</a>
+										</div>
+
+										<h1 class="entry-title">
+											<a href="https://html.modernwebtemplates.com/psychologist/blog-single-right.html" rel="bookmark">Çocuğunuzun duygularını nasıl anlarsınız?										</a>
+										</h1>
+
+										<hr class="divider_30_1">
+
+									</header>
+									<!-- .entry-header -->
+									
+										<p>
+											Çocuğunuzun duygularını anlamak, onun duygusal gelişimi ve sağlıklı iletişimi için son derece önemlidir. Çocuğunuzun duygularını anlamak için şu adımları izleyebilirsiniz:
+<ol>
+<li> Dikkatli Dinleme: Çocuğunuz sizinle konuştuğunda, dikkatlice dinlemeye özen gösterin. Onun söylediklerine aktif bir şekilde odaklanın ve göz teması kurun. Ona zaman ve dikkat ayırarak duygularını ifade etmeye teşvik edin.</li>
+
+	<li>Gözlem Yapma: Sadece sözlü ifadeleri değil, çocuğunuzun beden dilini de gözlemleyin. Yüz ifadeleri, beden duruşu ve jestleri, çocuğunuzun duygularını anlamak için önemli ipuçları verebilir.</li>
+
+		<li>Empati Gösterme: Çocuğunuzun duygularını anlamak için empati gösterin. Onun bakış açısını anlamaya çalışın ve kendinizi onun yerine koyun. "Anladığımı biliyorum" gibi ifadelerle onun duygularını onaylayın.</li>
+
+			<li>Duygusal Dil Kullanma: Çocuğunuzun duygularını ifade etmeyi öğrenmesine yardımcı olun. Duygusal bir dil kullanarak ona nasıl hissettiğini sormak ve onun duygularını onunla birlikte tanımlamak önemlidir.</li>
+
+				<li>Açık ve Destekleyici Ortam Yaratma: Çocuğunuzun duygularını ifade etmeye cesaretlendiren ve destekleyici bir ortam yaratın. Onun duygularını küçümsemeyin veya reddetmeyin. Her duygusunun geçerli olduğunu anlayın.</li>
+
+				
+											<img class="alignleft" alt="" src="images/blog_post2.jpg"> <li>İfadeyi Destekleme: Çocuğunuzun duygusal ifadelerini destekleyin. Örneğin, "Üzgün olduğunu biliyorum, böyle hissetmek normal" gibi ifadeler kullanarak onun duygularını onaylayın.</li>
+
+											<li>Sorular Sorma: Çocuğunuza duygularını daha iyi anlayabilmek için ona sorular sormak önemlidir. "Nasıl hissediyorsun?" veya "Neden böyle hissediyorsun?" gibi sorular sorarak onun duygusal dünyasını keşfedebilirsiniz.</li>
+							
+												<li>Sabırlı ve Anlayışlı Olma: Çocuğunuzun duygusal zorluklar yaşaması normaldir. Sabırlı olun ve ona zaman tanıyın. Anlayışlı bir şekilde yaklaşmak, güven duygusunun güçlendirecektir.</li>
+
+							</ol>Unutmayın, çocuklar duygularını ifade etmeyi öğrenirken zaman ve deneyimler gerektirir. Onları anlamak için çabalarınız, güvenli bir bağ oluşturmanıza ve duygusal gelişimlerine katkıda bulunmanıza yardımcı olacaktır. Çocuğunuzun duygusal ihtiyaçlarına duyarlı olmak, onun sağlıklı bir şekilde büyümesini destekler ve güçlü bir bağ kurmanıza yardımcı olur. 	
+										</p>
+										
+								
+										
+
+									</div>
+									<!-- .entry-content -->
+
+
+									<div class="author-meta side-item content-padding">
+
+					
+			</section>
+
+			<footer class="page_footer ds section_padding_top_75 section_padding_bottom_50 columns_padding_25 columns_margin_bottom_40">
+				<div class="container">
+
+					<div class="row">
+
+						<div class="col-md-4 col-sm-6 to_animate animated fadeInUp" data-animation="fadeInUp">
+
+							<div class="logo_footer_media">
+								<h4 class="text-uppercase highlight">İLETİŞİM</h4>
+							</div>
+
+							<div class="media small-teaser">
+								<div class="media-left">
+									<i class="fa fa-map-marker highlight fontsize_16"></i>
+								</div>
+								<div class="media-body">
+									Cumhuriyet, Alparslan Blv. Uyum Apt No:26, 55200 Atakum/Samsun
+								</div>
+							</div>
+
+							<div class="media small-teaser">
+								<div class="media-left">
+									<i class="fa fa-phone highlight fontsize_16"></i>
+								</div>
+								<div class="media-body">
+									+90500 000 0000
+								</div>
+							</div>
+
+							<div class="media small-teaser">
+								<div class="media-left">
+									<i class="fa fa-pencil highlight fontsize_16"></i>
+								</div>
+								<div class="media-body">
+									<a href="mailto:info@example.com">info@b2bterapi.com</a>
+								</div>
+							</div>
+
+						</div>
+						
+						<div class="col-md-4 col-sm-6 to_animate animated fadeInUp" data-animation="fadeInUp">
+							<div class="widget widget_mailchimp">
+
+								<h3 class="widget-title">BÜLTENE ÜYE OL</h3>
+
+								<form class="signup form-inline" action="./" method="get">
+									<div class="form-group">
+										<input name="email" type="email" class="mailchimp_email form-control" placeholder="Email">
+									</div>
+									<button type="submit" class="theme_button">Send</button>
+									<div class="response"></div>
+								</form>
+
+								<p class="topmargin_20">En son haberlerimiz ve güncellemelerimizle güncel kalın.</p>
+
+							</div>
+						</div>
+
+
+						<div class="col-md-4 col-sm-6 to_animate animated fadeInUp" data-animation="fadeInUp" style="letter-spacing:3px">
+							<div class="widget_text widget">
+								<h3 class="widget-title text-uppercase text center">Sosyal Hesaplar</h3>
+								<a href="#" class="fa fa-twitter"></a>
+								<a href="#" class="fa fa-facebook"></a>
+								<a href="#" class="fa fa-google"></a>
+								<a href="#" class="fa fa-linkedin"></a>
+								<a href="#" class="fa fa-pinterest"></a>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+			<section class="cs main_color2 page_copyright section_padding_15">
+				<div class="container with_top_border">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<p class="small-text">© 2023 B2B TERAPİ | Her hakkı saklıdır</p>
+						</div>
+					</div>
+				</div>
+			</section>  
+		</div>
+		<!-- eof #box_wrapper -->
+	</div>
+	<!-- eof #canvas -->
+
+	<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/compressed.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/switcher.js"></script>
+
+</body>
+
+</html>
